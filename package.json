@@ -1,0 +1,45 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "format": "prettier --write \"./src/**/*.{ts,tsx}\"",
+    "lint": "eslint src",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.1",
+    "react-error-overlay": "^6.0.11",
+    "react-scripts": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "overrides": {
+    "typescript": "^5.1.6",
+    "autoprefixer": "10.4.5"
+  }
+}
